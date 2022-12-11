@@ -1,0 +1,181 @@
+<doctype!>
+<html>
+<head>
+	<title>
+		Product Page
+	</title>
+</head>
+<body>
+	<header role="banner">
+		<style>
+			nav h1 
+			{
+				float: left;
+				padding: .5em .5em 0 0;
+				font-size: 4em;
+				text-transform: uppercase;
+			}
+			nav h1 a 
+			{
+				color: brown;
+			}	
+			.nav-ul 
+			{
+				display: flex;
+			}	
+			header li 
+			{
+				width: 20%;
+			}	
+			header .nav-ul a 
+			{
+				display: block;
+				padding: 1.75em 0.5em;
+				font-size: 1.5em;
+				text-align: center;
+				text-transform: uppercase;
+				color: white;
+				background: brown;
+				width: 100%;
+			}
+		</style>
+		<nav role="navigation">
+			<ul class="nav-ul" style="list-style: none;">
+				<img src="Logo.jpeg" alt="Logo" width="300px" height="150px">
+				<li><a style="text-decoration:none" href="#">Home</a></li>
+				<li><a style="text-decoration:none" href="#">About Us</a></li>
+				<li><a style="text-decoration:none" href="#">Catogeries</a></li>
+				<li><a style="text-decoration:none" href="#">Products</a></li>
+				<li><a style="text-decoration:none" href="#">Payment</a></li>
+			</ul>
+		</nav>
+	</header>
+	<table width="100%" cellpadding="70">
+		<colgroup><col width="50%">
+		<col width="50%">
+		</colgroup><tbody><tr>
+			<td align="right">
+				<img src="Product.jpg" alt="Product Image" border="2" style="width:450px;height:500px;border-color:#909090;">
+			</td>
+			<td valign="top">
+				<div class="row" style="line-height:1;">
+					<h1>
+						<font face="Eras Medium ITC"> <br> Black Biker Leather Jacket </font>
+					</h1>
+				</div>
+				<div class="row" style="line-height:1;">
+					<p> 
+						<font>
+							Now wait is over because we brought latest stylish leather jacket for our most valued stylish people. It is made with
+							requirements of latest fashion. The jacket is one of the hot viewed item of our store.The stitching is done by our
+							most experienced tailor masters. The latest design and lot of artistic care makes it different and unique
+						</font>
+					</p>
+				</div>
+				<div>
+					<h1>
+						<font face="Book Antiqua" style="color:#A00000;font-size:25;">
+							Brand :     &nbsp;
+						</font>
+						<font face="Georgia" style="font-size:20;">
+							Levi's
+						</font>
+					</h1>
+				</div>
+				<div>
+					<h1>
+						<font face="Book Antiqua" style="color:#A00000;font-size:25;">
+							Price :     &emsp;
+						</font>
+						<font face="Georgia" style="font-size:20;">
+							$ 92
+						</font>
+					</h1>
+				</div>
+				<div class="row" style="line-height:0.5;">
+							
+					<h3>
+						<label>
+							<font face="Book Antiqua" style="color:#A00000;font-size:25;">
+								Size :       
+							</font>
+						</label>
+						<select id="myList" style="width:200px;height:40px;background-color:#9D89A7;font-family:Georgia;font-size:20;">
+							<option value="1"> Small </option>
+							<option value="2"> Medium </option>
+							<option value="3"> Large </option>
+							<option value="4"> Extra Large </option>
+						</select>
+					</h3>
+				</div>
+				<div class="row" style="line-height:0.5;">				
+					<h3>
+						<label>
+							<font face="Book Antiqua" style="color:#A00000;font-size:25;">
+								Color :     &nbsp;
+							</font>
+						</label>
+						<select id="myList" style="width:200px;height:40px;margin:2;background-color:#9D89A7;font-family:Georgia;font-size:20;">
+							<option value="1"> Black </option>
+							<option value="2"> Brown </option>
+							<option value="3"> Grey </option>
+							<option value="4"> Blue </option>
+						</select>
+					</h3>
+				</div> <br>
+				<center>
+				<div class="row" style="line-height:1.4;background-color:Brown;width:250;">
+					<a style="text-decoration:none" href="#">
+						<font face="Algerian" style="color:#D0CDCD;font-size:35;">
+							BUY IN!
+						</font>
+					</a>
+				</div>
+				</center>
+			</td>
+		</tr>
+	</tbody></table>
+	<style> 
+		footer 
+		{
+			margin: 2;
+			padding: 2em ;
+			width: 100%;
+			text-align: center;
+			background: lightGrey;
+		}
+		footer .nav-ul 
+		{
+			justify-content: center;
+			margin-bottom: 1em;
+		}
+	
+		footer a 
+		{
+			font-size: 1.25em;
+			font-weight: bold;
+			color: darkGrey;
+			&:focus,
+			&:hover {color: $lightBlack;}
+		}
+		.copy
+		{
+			font-size: .85em;
+		}
+	</style>
+	<footer>
+		<nav role="navigation">
+			<ul class="nav-ul" style="list-style: none;">
+				<colgroup>
+					</colgroup><tbody><tr>
+					<li><a style="text-decoration:none" href="#"> Home &emsp; </a> </li>
+					<li><a style="text-decoration:none" href="#"> About Us &emsp; </a> </li>
+					<li><a style="text-decoration:none" href="#"> Technologies &emsp; </a> </li>
+					<li><a style="text-decoration:none" href="#"> Projects &emsp; </a> </li>
+					<li><a style="text-decoration:none" href="#"> Contacts </a> </li>
+				</tbody>
+			</ul>
+		</nav>
+		<p class="copy"> <br> © Designed By Students of Fast-NU</p>
+	</footer>
+</body>

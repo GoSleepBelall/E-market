@@ -1,0 +1,300 @@
+<!DOCTYPE html> <!-- I don't knowwhy we used this-->
+<style> <!-- MAJOR LAYOUT -->
+body {
+  width: 100%;
+  height: 100%;
+}
+body {color: #333;}
+*,
+*:before,
+*:after {box-sizing: border-box;}
+.line {
+  float: left;
+  width: 100%;
+  border-top: .25em solid lightBlack;
+}
+.wrapper {
+  margin: auto;
+  width: 83em;
+  min-height: 100%;
+}
+header,
+nav,
+section,
+footer {
+  float: left;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  transition: color .25s;
+}
+.button {
+  display: block;
+  padding: 0.75em 1.25em;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: brown;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+.link {
+  font-weight: bold;
+  color: brown;
+}
+</style>
+<div class="line"></div>
+
+<div class="wrapper">
+<style> <!-- Main Styling of Text-->
+    /* Typography Text Sizes */
+     html {font: 16px'Open Sans Condensed';}
+     h1 {font-size: 1.75em;}
+     h2 {font-size: 2em;}
+     h3 {font-size: 1.75em;}
+     h4 {font-size: 1.5em;}
+     p {font-size: 1.25em;} 
+  </style>
+  
+<header role="banner">
+	<style> <!-- Header Banner style -->
+	nav h1 
+	{
+		float: left;
+		padding: .5em .5em 0 0;
+		font-size: 4em;
+		text-transform: uppercase;
+	}
+	nav h1 a 
+	{
+		color: brown;
+	}	
+	.nav-ul 
+	{
+		display: flex;
+	}	
+	header li 
+	{
+		width: 20%;
+	}	
+	header .nav-ul a 
+	{
+		display: block;
+		padding: 1.75em 0.5em;
+		font-size: 1.5em;
+		text-align: center;
+		text-transform: uppercase;
+		color: white;
+		background: brown;
+		width: 100%;
+	}
+	</style>
+		<nav role="navigation"> <!-- Main Header -->
+			<ul class="nav-ul" style="list-style: none;">
+			<img src = "logo2.png" width = "300px" height = "150px" >
+			<li><a href="homepage.html">Home</a></li>
+			<li><a href="About Us.html">About Us</a></li>
+			<li><a href="#">Catogeries</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="paymentpage.html">Payment</a></li>
+      </ul>
+		</nav>
+</header>
+<main role="main">
+<style>
+	section
+	{
+		margin: 1em 0;
+	}
+	section h1
+	{
+		text-transform: uppercase;
+	}
+	hr
+	{
+		border-color: lightGrey;
+		border-style: dashed;
+	}
+	.vertical
+	{
+		width: 0;
+		height: 10px;
+	}
+    </style>
+
+
+<style>
+    .sec-intro
+	{
+		position: relative;
+	}
+	.sec-intro img
+	{
+		width: 100%;
+	}
+	.sec-intro h1
+	{
+		position: auto;
+		bottom: 0em;
+		left: .5em;
+		padding: 0.5em;
+		background: rgba(0,0,0,.5);
+		color: white;
+	}
+    </style>
+
+
+
+<style>
+	.box
+	{
+		float: left;
+		padding: 0em 3.4em;
+		width: 25%;
+		height: 500px;
+	}
+	.box h1 
+	{
+		text-align: center;
+		font-size: 30px;
+		font-weight: normal;
+	}
+	.box p 
+	{
+		margin-top: 0.75em;
+		height: 0em;
+		font-size: 15px;
+		text-align: left;
+	}
+	.box .button
+	{
+		margin: 3.5em auto;
+	} 
+	</style>
+<section class="sec-boxes" role="section">
+    <article class="box">
+        <h1 style = "font-family: berlin sans fb";>Hoodies</h1>
+        <a href="hoodpage.html" style="color: #FFFFFF;">
+		<img src = "hood1.png" alt = "Hoodie picture." width = "250px" height = "300px">
+		</a>
+        <p>The Best Match For Your Winters.</p>
+        <button class="button" type="button" role="button" value="MORE">
+		<a href="hoodpage.html" style="color: #FFFFFF;">
+		More
+		</a>
+		</button>
+    </article>
+    
+	<article class="box">    
+        <h1 style = "font-family: berlin sans fb";>Jackets</h1>
+		<a href="jacketpage.html" style="color: #FFFFFF;">
+        <img src = "jacket1.png" alt = "Jacket Picture." width = "250px" height = "300px">
+		</a>
+        <p>High Quality Leather Jackets.</p>
+        <button class="button" type="button" role="button" value="MORE">
+		<a href="jacketpage.html" style="color:#FFFFFF;">
+		More
+		</a>
+		</button>
+    </article>
+	
+    <article class="box">
+        <h1 style = "font-family:berlin sans fb";>T-Shirts</h1>
+		<a href="shirtpage1.html" style="color:#FFFFFF;">
+        <img src = "shirt1.png" alt = "T Shirt Picture." width = "250px" height = "300px">
+		</a>
+        <p>Enjoy The Coolest Summers With Us.</p>
+        <button class="button" type="button" role="button" value="MORE">
+		<a href="shirtpage1.html" style="color:#FFFFFF;">
+		More
+		</a>
+		</button>
+    </article>
+    
+	<article class="box">       
+        <h1 style = "font-family:berlin sans fb";>Jeans</h1>
+		<a href="jeanspage.html" style="color:#FFFFFF;">
+        <img src = "j1.png" alt = "Jeans Image." width = "250px" height = "300px">
+		</a>
+        <p>The Elite Denims At Your Door Step.</p>
+        <button class="button" type="button" role="button" value="MORE">
+		<a href="jeanspage.html" style="color:#FFFFFF;">
+		More
+		</a>
+		</button>
+    </article>
+	 <article class="box">
+        <h1 style = "font-family: berlin sans fb";>Ladies Wear</h1>
+        <img src = "l13.png" alt = "Hoodie Picture." width = "250px" height = "300px">
+        <p>We Innovate The Trends.</p>
+        <button class="button" type="button" role="button" value="MORE">More</button>
+    </article>
+    
+	<article class="box">    
+        <h1 style = "font-family: berlin sans fb";>Shoes</h1>
+        <img src = "shoe1.png" alt = "Shoes Picture." width = "250px" height = "300px">
+        <p>Because Your Each Step Counts.</p>
+        <button class="button" type="button" role="button" value="MORE">More</button>
+    </article>
+	
+    <article class="box">
+        <h1 style = "font-family:berlin sans fb";>Watches</h1>
+        <img src = "w1.png" alt = "T Shirt Picture." width = "250px" height = "300px">
+        <p>Make Your Time Real and Precious.</p>
+        <button class="button" type="button" role="button" value="MORE">More</button>
+    </article>
+    
+	<article class="box">       
+        <h1 style = "font-family:berlin sans fb";>Accessories</h1>
+        <img src = "p1.png" alt = "Jeans Image." width = "250px" height = "300px">
+        <p>We provide You Your Needs.</p>
+        <button class="button" type="button" role="button" value="MORE">More</button>
+    </article>
+	  
+</section>
+
+
+<style> 
+footer 
+	{
+	
+		margin: 2;
+		padding: 2em ;
+		width: 100%;
+		text-align: center;
+		background: lightGrey;
+	}
+footer .nav-ul 
+	{
+		justify-content: center;
+	}
+
+footer a 
+	{
+		display : inline;
+		padding: 10px;
+		font-size: 1.25em;
+		font-weight: bold;
+		color: darkGrey;
+
+	}
+.copy
+	{
+		font-size: .85em;
+	}
+</style>
+<footer>
+	<nav role="navigation">
+		<ul class="nav-ul" style="list-style: none;">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Partners</a></li>
+			<li><a href="#">Outlets</a></li>
+		</ul>
+	</nav>
+<p class="copy">&copy; Designed By Students of Fast-NU</p>
+</footer>
+<div class="line"></div>

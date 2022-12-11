@@ -1,0 +1,568 @@
+<!DOCTYPE html> <!-- I don't knowwhy we used this-->
+<style> <!-- MAJOR LAYOUT -->
+body {
+  width: 100%;
+  height: 100%;
+}
+body {color: #333;}
+*,
+*:before,
+*:after {box-sizing: border-box;}
+.line {
+  float: left;
+  width: 100%;
+  border-top: .25em solid lightBlack;
+}
+.wrapper {
+  margin: auto;
+  width: 83em;
+  min-height: 100%;
+}
+header,
+nav,
+section,
+footer {
+  float: left;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  transition: color .25s;
+}
+.button {
+  display: block;
+  padding: 0.75em 1.25em;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: brown;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+.link {
+  font-weight: bold;
+  color: brown;
+}
+</style>
+<div class="line"></div>
+
+<div class="wrapper">
+<style> <!-- Main Styling of Text-->
+    /* Typography Text Sizes */
+     html {font: 16px'Open Sans Condensed';}
+     h1 {font-size: 1.75em;}
+     h2 {font-size: 2em;}
+     h3 {font-size: 1.75em;}
+     h4 {font-size: 1.5em;}
+     p {font-size: 1.25em;} 
+  </style>
+  
+<header role="banner">
+	<style> <!-- Header Banner style -->
+	nav h1 
+	{
+		float: left;
+		padding: .5em .5em 0 0;
+		font-size: 4em;
+		text-transform: uppercase;
+	}
+	nav h1 a 
+	{
+		color: brown;
+	}	
+	.nav-ul 
+	{
+		display: flex;
+	}	
+	header li 
+	{
+		width: 20%;
+	}	
+	header .nav-ul a 
+	{
+		display: block;
+		padding: 1.75em 0.5em;
+		font-size: 1.5em;
+		text-align: center;
+		text-transform: uppercase;
+		color: white;
+		background: brown;
+		width: 100%;
+	}
+	</style>
+		<nav role="navigation"> <!-- Main Header -->
+			<ul class="nav-ul" style="list-style: none;">
+			<img src = "logo2.png" width = "300px" height = "150px" >
+			<li><a href="#">Home</a></li>
+			<li><a href="About Us.html">About Us</a></li>
+			<li><a href="categories.html">Catogeries</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="paymentpage.html">Payment</a></li>
+      </ul>
+		</nav>
+</header>
+<main role="main">
+<style>
+	section
+	{
+		margin: 1em 0;
+	}
+	section h1
+	{
+		text-transform: uppercase;
+	}
+	hr
+	{
+		border-color: lightGrey;
+		border-style: dashed;
+	}
+	.vertical
+	{
+		width: 0;
+		height: 10px;
+	}
+    </style>
+
+
+<style>
+    .sec-intro
+	{
+		position: relative;
+	}
+	.sec-intro img
+	{
+		width: 100%;
+	}
+	.sec-intro h1
+	{
+		position: auto;
+		bottom: 0em;
+		left: .5em;
+		padding: 0.5em;
+		background: rgba(0,0,0,.5);
+		color: white;
+	}
+    </style>
+<section class="sec-intro" role="section">
+      <h1>The Best E-Store In Town!</h1>
+</section>
+
+<section class = "sec-video" role = "section">
+	<video width="1310" height="512" autoplay muted>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+</section>
+
+
+
+<style>
+	.box
+	{
+		float: left;
+		padding: 0em 3.4em;
+		width: 25%;
+		height: 500px;
+	}
+	.box h1 
+	{
+		text-align: center;
+		font-size: 30px;
+		font-weight: normal;
+	}
+	.box p 
+	{
+		margin-top: 0.75em;
+		height: 0em;
+		font-size: 15px;
+		text-align: left;
+	}
+	.box .button
+	{
+		margin: 3.5em auto;
+	} 
+	</style>
+<section class="sec-boxes" role="section">
+    <article class="box">
+        <h1 style = "font-family: berlin sans fb";>Hoodies</h1>
+        <a href="hoodpage.html" style="color: #FFFFFF;">
+		<img src = "hood1.png" alt = "Hoodie picture." width = "250px" height = "300px">
+		</a>
+        <p>The Best Match For Your Winters.</p>
+        <button class="button" type="button" role="button" value="MORE">
+		<a href="hoodpage.html" style="color: #FFFFFF;">
+		More
+		</a>
+		</button>
+    </article>
+    
+	<article class="box">    
+        <h1 style = "font-family: berlin sans fb";>Jackets</h1>
+		<a href="jacketpage.html" style="color: #FFFFFF;">
+        <img src = "jacket1.png" alt = "Jacket Picture." width = "250px" height = "300px">
+		</a>
+        <p>High Quality Leather Jackets.</p>
+        <button class="button" type="button" role="button" value="MORE">
+		<a href="jacketpage.html" style="color:#FFFFFF;">
+		More
+		</a>
+		</button>
+    </article>
+	
+    <article class="box">
+        <h1 style = "font-family:berlin sans fb";>T-Shirts</h1>
+		<a href="shirtpage1.html" style="color:#FFFFFF;">
+        <img src = "shirt1.png" alt = "T Shirt Picture." width = "250px" height = "300px">
+		</a>
+        <p>Enjoy The Coolest Summers With Us.</p>
+        <button class="button" type="button" role="button" value="MORE">
+		<a href="shirtpage1.html" style="color:#FFFFFF;">
+		More
+		</a>
+		</button>
+    </article>
+    
+	<article class="box">       
+        <h1 style = "font-family:berlin sans fb";>Jeans</h1>
+		<a href="jeanspage.html" style="color:#FFFFFF;">
+        <img src = "j1.png" alt = "Jeans Image." width = "250px" height = "300px">
+		</a>
+        <p>The Elite Denims At Your Door Step.</p>
+        <button class="button" type="button" role="button" value="MORE">
+		<a href="jeanspage.html" style="color:#FFFFFF;">
+		More
+		</a>
+		</button>
+    </article>
+	 <article class="box">
+        <h1 style = "font-family: berlin sans fb";>Ladies Wear</h1>
+        <img src = "l13.png" alt = "Hoodie Picture." width = "250px" height = "300px">
+        <p>We Innovate The Trends.</p>
+        <button class="button" type="button" role="button" value="MORE">More</button>
+    </article>
+    
+	<article class="box">    
+        <h1 style = "font-family: berlin sans fb";>Shoes</h1>
+        <img src = "shoe1.png" alt = "Shoes Picture." width = "250px" height = "300px">
+        <p>Because Your Each Step Counts.</p>
+        <button class="button" type="button" role="button" value="MORE">More</button>
+    </article>
+	
+    <article class="box">
+        <h1 style = "font-family:berlin sans fb";>Watches</h1>
+        <img src = "w1.png" alt = "T Shirt Picture." width = "250px" height = "300px">
+        <p>Make Your Time Real and Precious.</p>
+        <button class="button" type="button" role="button" value="MORE">More</button>
+    </article>
+    
+	<article class="box">       
+        <h1 style = "font-family:berlin sans fb";>Accessories</h1>
+        <img src = "p1.png" alt = "Jeans Image." width = "250px" height = "300px">
+        <p>We provide You Your Needs.</p>
+        <button class="button" type="button" role="button" value="MORE">More</button>
+    </article>
+	  
+</section>
+
+<style>	
+.sec-temp
+{
+margin-top: 5em;
+}
+ </style>
+<section class="sec-temp" role="section">
+<hr/>
+    <img src = "cover.png" width = "1330px" height = "500px">
+</section>
+
+<style>
+	.sec-events > h1 
+	{
+		margin-top: 1em;
+		display: block;
+		font-size: 200%;
+
+    }
+	.sec-events article 
+	{
+		float: left;
+		padding: 0 .25em;
+		width: 33%;
+		text-align: justify;
+
+	}
+	.sec-events article h1
+	{
+		display : block;
+		font-size: 150%;
+		font-weight: bold;
+		text-align: center;
+    }
+	.sec-events article p 
+	{
+		display: block;
+		margin: 0em ;	
+		padding: .25em 1em;
+		font-size: 110%;
+	}
+	.sec-events article a 
+	{
+		float: right;
+		padding-right: 1em;
+	}
+
+</style>
+<section class="sec-events" role="section">
+<hr />
+    <h1>Upcomming events</h1>
+    <br> </br>
+      
+	<article>
+		<h1><img src = "black_friday.png" width = "400px" height = "150px">	</h1>
+		<h1>The Great Grand Friday Sale</h1>
+        <p> Black Friday is an informal name for the Friday following Thanksgiving Day in the United States, which is celebrated on the fourth Thursday of November. We're Celeberating This Grand Event by putting upto 50% off on our Entire Stock. 'Hurrraaayyyy !' So, Don't miss the chance and Grab Your Best Clothing On 29th November. </p>
+		<a class="link" href="#">more...</a>
+    </article>
+    
+	<article>
+		<h1><img src = "winter_sale.png" width = "400px" height = "150px" >	</h1>
+        <h1>Winters Sale</h1>
+        <p>When Everyone is Happy because of the Winters Holidays and Finally Fast-NU announced holidays in the Winters, Why dont we enjoy this occasion ! We're Going to make you Happy by the Upcoming Winters Sale. We will Give you upto 30% off on our Classic Hoodies so that You can Make Your Winters even more Classic. Don't Forget To Check Again.</p>
+        <a class="link" href="#">more...</a>
+    </article>
+    
+	<article>
+		<h1><img src = "christmas.png" width = "400px" height = "150px" >	</h1>
+        <h1>Christmas sale !</h1>
+        <p>The 25th December is the day of Christmas and The Team of E-Market decided to announce a sale of flat 75% off on entire stock. So, get ready to grab your best pairs of hoodies, shirts and jeans and don't miss this classy chance to fill your wardrobe with our elite products. 'DONT MISS THE CHANCE.'</p>
+        <a class="link" href="#">more...</a>
+    </article>
+</section>
+  
+<style> 
+	.sec-projects
+	{
+		width: 60%;
+	}
+	.sec-projects > h1 
+	{
+		margin-top: 1em;
+		text-align: center;
+	}
+	.sec-projects article 
+	{
+		padding: .5em 0;
+		width: 100%;
+	}
+	.sec-projects article h1,
+	.sec-projects article p 
+	{
+		font-size: 110%;
+	}
+	.sec-projects article h1 
+	{
+		font-weight: bold;
+	}
+	.sec-projects article p 
+	{
+		margin: .5em .5em .5em 0;
+		text-align: justify;
+	}
+	.sec-projects p a 
+	{
+		float: right;
+	}
+	.sec-projects button 
+	{
+		position: relative;
+		left: 80%;
+	}
+</style>
+<section class="sec-projects" role="section">
+	<hr />
+    <h1>Our Outlets & Offices</h1>
+    <article>
+        <h1>Karachi</h1>
+        <p>We Know That Karachi is The Basic Hub for Fashion in Pakistan so, By targeting the Right Audience We started From Karachi and We're Happy from The Public Response There. The People of Karahi have great sense of Fashion thus they Enjoy our Products Very Much. 
+          <br>
+          Location : Plot#999, Block A, Bahria Town - Karachi.
+          <br>
+          Timings :: 9:AM - 5:00 PM.
+          <a class="link" href="#">more...</a></p>
+    </article>
+    
+	<article>
+        <h1>Lahore</h1>
+        <p> The Lahore City is famous for its kind people. That's why we decided to open our Second Office in Lahore. The Audience of Lahore is even greater then Karachi That's why we have three successfull offices running in Lahore right now.
+		<br>
+		Location#1: Plot#885-A, J2 Block, Johar Town.
+		<br>
+		Location#2: Commercial Market, DHA, Lahore.
+		<a class="link" href="#">more...</a></p>
+    </article>
+    
+	<article>
+        <h1>Faisalabad</h1>
+        <p> After Success in two cities, We make our way to the City of Textiles. The variety of Clothing there is classic and so the trend is... Our Major warehouse is in Faisalabad so Don't forget to visit.
+		<br>
+		Location: Plot#49, C block, Gulfishan Colony.
+		<br>
+		Timings: 9:00 AM - 5:00 PM
+		<a class="link" href="#">more...</a></p>
+    </article>
+    
+</section>
+  
+<style> 
+	.sec-standards
+	{
+		width: 40%;
+	}
+	.sec-standards > h1 
+	{
+		margin-top: 1em;
+		text-align: center;
+	}
+	.sec-standards article 
+	{
+		float: left;
+		padding: .5em 1em;
+		width: 50%;
+		text-align: justify;
+	}
+	.sec-standards article:last-child 
+	{
+		padding: .5em 0;
+		background-color: ;
+	}
+	.sec-standards article h1
+	{
+		text-align: center;
+	}
+</style>
+<section class="sec-standards" role="section">
+    <hr />
+    <h1>Our Standards</h1>
+    <article>
+        <h1>Excellence</h1>
+        <p>Our goal is to give our customers the best solutions in highest aquality. Our employees strive for excellence and work hard to achieve it. Everything must work and be reliable. Great design must be both, aesthetic and functional. Product or service that pass these conditions will be everlasting.</p>
+    </article>
+      
+	<article>
+        <h1>Uniqueness</h1>
+        <p>Our mantra is to create new paths. We are not interested in copying others because we know, that if you want to succeed, you have to be different, unique. Our customers know that we create unique products and experience for them. This is the best way to differentiate us and our brand from the noise on market. Unique, different and proud.</p>
+    </article>
+</section>
+ 
+<style> 
+	.sec-partners h1 
+	{
+		margin-top: 1em;
+	}
+	.sec-partners .row 
+	{
+		float: center;
+		margin: 2em 0;
+		width: 100%;
+	}
+	.logo-container 
+	{
+		float: left;
+		width: 16%;
+		width: 100px;
+	}	
+	.logo-container:not(:first-child){margin-left: 4%;}
+	.logo-container:first-child {margin-top: .2em;}
+	.logo-container:nth-of-type(2) img {margin-top: 1.75em}
+	.logo-container:nth-of-type(3) img {margin-top: 1.25em;}
+	.logo-container:nth-of-type(4) img {margin-top: 0.7em;}
+	.logo-container:nth-of-type(5) img {margin-top: 1em;}
+	.logo-container:nth-of-type(6) img {margin-top: 1.7em;}
+	.logo-container:nth-of-type(7) img {margin-top: 1.25em;}
+	.logo-container:nth-of-type(8) img {margin-top: 1.75em;}
+	.logo-container:nth-of-type(9) img {margin-top: 1.25em;}
+
+	.sec-partners img
+	{
+		float: left;
+		width: 100%;
+	}
+</style>
+<section class="sec-partners" role="section">
+    <hr />
+    <h1>Our Partners</h1>
+    <div class="row">
+		<div class="logo-container">
+          <img src="champion.jpg" alt="Champion Logo" />
+        </div>
+		<div class="logo-container">
+          <img src="nike.png" alt="Nike logo" />
+        </div>
+		<div class="logo-container">
+          <img src="gucci.png" alt="Gucci Logo" />
+        </div>
+		<div class="logo-container">
+          <img src="versace.png" alt="Versace Logo" />
+        </div>	  
+	    <div class="logo-container">
+			<img src="adidas.png" alt="Addidas Logo" />
+        </div>
+		<div class="logo-container">
+          <img src="levis.png" alt="Levis Logo" />
+        </div>
+		<div class="logo-container">
+          <img src="puma.png" alt="puma logo" />
+        </div>
+        <div class="logo-container">
+          <img src="tommy.jpg" alt="Tommy Hilfiger Logo" />
+        </div>
+        <div class="logo-container">
+          <img src="vans.jpg" alt="Vans Logo" />
+        </div>
+    </div>
+</section>
+</main>
+</div>
+
+<style> 
+footer 
+	{
+	
+		margin: 2;
+		padding: 2em ;
+		width: 100%;
+		text-align: center;
+		background: lightGrey;
+	}
+footer .nav-ul 
+	{
+		justify-content: center;
+	}
+
+footer a 
+	{
+		display : inline;
+		padding: 10px;
+		font-size: 1.25em;
+		font-weight: bold;
+		color: darkGrey;
+
+	}
+.copy
+	{
+		font-size: .85em;
+	}
+</style>
+<footer>
+	<nav role="navigation">
+		<ul class="nav-ul" style="list-style: none;">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Partners</a></li>
+			<li><a href="#">Outlets</a></li>
+		</ul>
+	</nav>
+<p class="copy">&copy; Designed By Students of Fast-NU</p>
+</footer>
+<div class="line"></div>
